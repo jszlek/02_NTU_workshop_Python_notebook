@@ -21,7 +21,7 @@ from copy import copy
 from sklearn.metrics import mean_squared_error,r2_score
 from sklearn.model_selection import GroupKFold # import KFold
 from sklearn import preprocessing
-%matplotlib inline
+# %matplotlib inline - this line must be commented-out in order to run in a Python console
 import matplotlib.pyplot as plt
 
 # -------------------------------
