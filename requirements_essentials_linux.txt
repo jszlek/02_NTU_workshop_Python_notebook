@@ -1,0 +1,18 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+colorama
+h2o
+jupyter
+jupyterlab
+matplotlib
+nb_conda_kernels
+notebook
+numpy
+pandas
+psutil
+scikit-learn
+scipy
+shap
+tabulate
+tqdm
