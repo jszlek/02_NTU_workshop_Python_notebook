@@ -10,9 +10,12 @@
  To unpack the 7-zip files which are stored in the repository (`*.7z`) please install a software from https://www.7-zip.org/ or use your package manager (`zypper`, `apt-get`)
  ### 3. Hardware
  Please, be advised that running H2O server can cause your machine to _freeze_ or even _crash_, if it has not enough resources (RAM and/or CPUs). If you wish to use the notebook on your own data sets please carefully set the `my_max_ram_allowed` variable not to exceed your free RAM.
- 
+
+## Preview
 To view the case please visit:
 https://nbviewer.jupyter.org/github/jszlek/02_NTU_workshop_Python_notebook/blob/master/h2o_PLGA_case.ipynb  
 
+## Batch mode
+In order to run a script in a batch mode a Python script was prepared (https://github.com/jszlek/02_NTU_workshop_Python_notebook/blob/master/AutoML_Jupyter_notebook.py). Please edit the script according to your needs, save it, switch to the case directory, run terminal and activate `h2o` environment from your anaconda prompt. Then type `python AutoML_Jupyter_notebook.py`.   
 
 If something goes wrong and you will have troubles in getting everything running, please do not hesitate to contact me: j.szlek[at]uj.edu.pl
